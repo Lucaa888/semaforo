@@ -3,18 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semaforo</title>
+  <title>Simulatore di Semaforo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="semaforo">
-    <div class="light" id="red1"></div>
-    <div class="light" id="red2"></div>
-    <div class="light" id="red3"></div>
-    <div class="light" id="green"></div>
-  </div>
-  <button id="startButton">Start</button>
-  <div id="result"></div>
+  <header>
+    <h1>Simulatore di Semaforo</h1>
+    <p>Metti alla prova i tuoi riflessi! Aspetta la luce verde e clicca il più velocemente possibile.</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="semaforo">
+        <div class="light" id="red1"></div>
+        <div class="light" id="red2"></div>
+        <div class="light" id="red3"></div>
+        <div class="light" id="green"></div>
+      </div>
+      <button id="startButton">Inizia</button>
+      <div id="result"></div>
+    </div>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
+
